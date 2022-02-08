@@ -1,0 +1,30 @@
+nav {
+    background-color: #0d293e;
+    color: #b4b8bb;
+    height: 2rem;
+}
+a {
+    padding: 1rem;
+    color: #b4b8bb;
+}
+a:hover {
+    background-color: dimgray;
+}
+body {
+    background-color: #3b3f42;
+    color: #b4b8bb;
+    font-size: 16pt;
+    align-content: center;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.bold {
+    font-weight: bold;
+    color: dodgerblue;
+}
+footer {
+    text-underline: #b4b8bb;
+    font-size: 12pt;
+    font-weight: bold;
+}

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+    <link rel="stylesheet" th:href="@{/style.css}">
+</head>
+<body>
+  <div th:insert="fragments/navigation :: header"></div>
+  <h1>Creating a new project in IntelliJ</h1>
+  This site will show you the steps involved with making a new project while you are already in a project.<br><br><br>
+  <a th:href="@{/tutorials/stepOne}" class="bold">Click here</a> to proceed to step one or use the navigation at the top.
+  <br><br>
+  <div th:insert="fragments/navigation :: footer"></div>
+
+
+
+<!--img example -->
+<!-- <img alt="alternative text" th:src="@{/img/mocking-spongebob-meme.jpg}">-->
+</body>
+</html>

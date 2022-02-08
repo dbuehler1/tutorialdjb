@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<p th:text="test"></p>
+
+<header th:fragment="header">
+    <nav>
+
+            <a th:href="@{/}">Home</a>
+            <a th:href="@{/tutorials/stepOne}">Step 1</a>
+            <a th:href="@{/tutorials/stepTwo}">Step 2</a>
+            <a th:href="@{/tutorials/stepThree}">Step 3</a>
+            <a th:href="@{/tutorials/stepFour}"> Step 4</a>
+
+    </nav>
+</header>
+
+<footer th:fragment="footer">
+    You are creating a new project in IntelliJ
+</footer>
+</body>
+</html>
